@@ -38,9 +38,10 @@ const Todos = () => {
 					"Content-Type": "application/json"
 				}
 			});
-		}
-		if (response[0].id > 0) {
-			setTasks(response);
+		} else {
+			if (response[0].id > 0) {
+				setTasks(response);
+			}
 		}
 	};
 
