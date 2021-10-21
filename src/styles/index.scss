@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body {
+  background-color: lightgray
+}
+
+.lista {
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+.titulo {
+  font-size: 5em 
+}
 /* 
 
     You can write your own styles here...
